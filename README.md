@@ -33,6 +33,11 @@ in the references below), and it is freely available. The graphics can be perfor
 to Python, such as PYGIST.  The parallel version of UEDGE available through Python also uses the PETSc linear 
 algebra solver whose development has been led by ANL (https://www.mcs.anl.gov/petsc/).
 
+# Getting started 
+The easiest way to try out UEDGE is to download a static executable that should run on any Linux system; see
+the link to the executable.  The second method is to download the UEDGE source files, and then build a Python
+version or a Basis version.
+
 # Authors contributing to V7 release
 T.D. Rognlien, I. Joseph, W.H. Meyer, M.E. Rensink, and M.V. Umansky, LLNL  
 (trognlien@llnl.gov, joseph5@llnl.gov, meyer8@llnl.gov, rensink1@llnl.gov, umansky1@llnl.gov)
