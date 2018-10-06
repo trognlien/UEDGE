@@ -29,14 +29,18 @@ D.A. Knoll, INEEL; D.P. Stotler, PPPL; B.J. Braams, retired, IAEA; A.Yu. Pigarov
 R. Smirnov, UCSD; J.D. Elder, U. Toronto; M. Groth, Aalto Univ.; and R.B. Campbell, Sandia.
 
 ## References
-#_UEDGE development_#  
+**_UEDGE development_** 
 T.D. Rognlien, J.L. Milovich, M.E. Rensink, and G.D. Porter, J. Nucl. Mat. 196-198 (1992) 347-351.  
 G.R. Smith, P.N. Brown, R.B. Campbell, D.A. Knoll, P.R. McHugh, M.E. Rensink, and T.D. Rognlien, J. Nucl. Mater. 220-222 (1995) 1024.  
 M.E. Rensink and T.D. Rognlien, J. Nucl. Mater. 266-269 (1999) 1180.  
 T.D. Rognlien, D.D. Ryutov, N. Mattor, and G.D. Porter, Phys. Plasmas 6, (1999) 1851.  
 T.D. Rognlien, M.E. Rensink, and G.R. Smith, "User manual for the UEDGE edge-plasma transport code," January 2000, LLNL Rpt. UCRL-ID-137121, lastest revision May 1, 2013.  
 
-#_Forthon development_# 
+**_Forthon development_** 
 D. P. Grote, A. Friedman, I. Haber, ``Methods used in WARP3d, a Three-Dimensional PIC/Accelerator Code'', Proceedings of the 1996 Computational Accelerator Physics Conference, AIP Conference Proceedings 391, p. 51.  
 See also: http://hifweb.lbl.gov/Forthon/  
 
+**_FACETS project_**  
+J.R. Cary, J. Candy, R.H. Cohen et al., J. Phys.: Conf. Ser. 125 (2008) 012040.  
+A.H. Hakim, T.D. Rognlien, R.J. Groebner et al., Phys. Plasmas 19 (2012) 032505.  
+M. McCourt, T.D. Rognlien, L.C. McInnes, and H. Zhang, Computational Science & Discovery 5 (2012) 014012.  
