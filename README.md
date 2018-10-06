@@ -38,6 +38,10 @@ The easiest way to try out UEDGE is to download a static executable that should 
 the link to the executable.  The second method is to download the UEDGE source files, and then build a Python
 version or a Basis version.
 
+# How to get involved and contribute
+Sent email to one of the developers listed below expressing your interest in modifying or developing packages 
+for UEDGE.  Either new or improved physics models or numerical algorithms are most welcome.
+
 # Authors contributing to V7 release
 T.D. Rognlien, I. Joseph, W.H. Meyer, M.E. Rensink, and M.V. Umansky, LLNL  
 (trognlien@llnl.gov, joseph5@llnl.gov, meyer8@llnl.gov, rensink1@llnl.gov, umansky1@llnl.gov)
