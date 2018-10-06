@@ -1,6 +1,6 @@
 # UEDGE
 2D time-dependent fluid simulation code of plasma and neutrals in magnetic fusion devices.
-# Brief description 
+## Brief description 
 UEDGE is an interactive suite of physics packages using the Python or BASIS scripting systems. 
 The original (circa 2007) Python version was further developed under the FACETS SciDAC project 
 [Cary 2008, McCourt 2012]. The plasma is described by time-dependent 2D plasma fluid equations 
@@ -11,14 +11,14 @@ are included. Classical transport is assumed along magnetic field lines, and ano
 is assumed across field lines.  Multi-charge state impurities can be included with the corresponding 
 line-radiation energy loss. 
 
-# Method of solution
+## Method of solution
 A fully implicit numerical algorithm is used that allows both Newton-like iterations to steady state 
 and time-dependent solutions with large time-steps.  A preconditioning matrix is obtained by approximate 
 (ILUT) inversion of a numerical finite-difference Jacobian, which is then used in a Newton-Krylov 
 solution algorithm. A finite-volume differencing algorithm is used. Over 95% of the coding is in 
 Fortran with the remainder being C.
 
-# Related and auxiliary software
+## Related and auxiliary software
 
 Although UEDGE is written in Fortran, for efficient execution and analysis of results, it utilizes 
 either Python or BASIS scripting shells. Python is easily available for many platforms 
@@ -33,27 +33,25 @@ in the references below), and it is freely available. The graphics can be perfor
 to Python, such as PYGIST.  The parallel version of UEDGE available through Python also uses the PETSc linear 
 algebra solver whose development has been led by ANL (https://www.mcs.anl.gov/petsc/).
 
-# Getting started 
+## Getting started 
 The easiest way to try out UEDGE is to download a static executable that should run on any Linux system; see
-the link to the executable [see uedge_executable].  The second method is to download the UEDGE source files, and then build a Python
-version or a Basis version (see uedge_source).
+the link to the executable [see uedge_executable file].  The second method is to download the UEDGE source files, and then build a Python
+version or a Basis version [see uedge_source directory].
 
-# How to get involved and contribute
+## How to get involved and contribute
 Sent email to one of the developers listed below expressing your interest in modifying or developing packages 
 for UEDGE.  Either new or improved physics models or numerical algorithms are most welcome.
 
-# Authors contributing to V7 release
+## Authors contributing to V7 release
 T.D. Rognlien, I. Joseph, W.H. Meyer, M.E. Rensink, and M.V. Umansky, LLNL  
 (trognlien@llnl.gov, joseph5@llnl.gov, meyer8@llnl.gov, rensink1@llnl.gov, umansky1@llnl.gov)
 
-# Acknowledgements to previous contributors
+## Acknowledgements to previous contributors
 P.N. Brown, R.H. Cohen, D.P. Grote, A.C. Hindmarsh, L.L. LoDestro, J.L. Milovich, 
 A. Pankin, G.D. Porter, and G.R. Smith, all presently or formerly at LLNL; M. McCourt, 
 L.C. McInnes, and H. Zhang, ANL; J.R. Cary, A.H. Hakim, S.E. Kruger, and A. Pankin, Tech-X; 
 D.A. Knoll, INEEL; D.P. Stotler, PPPL; B.J. Braams, retired, IAEA; A.Yu. Pigarov and 
 R. Smirnov, UCSD; J.D. Elder, U. Toronto; M. Groth, Aalto Univ.; and R.B. Campbell, Sandia.
-
-# Getting involved
 
 # References
 **_UEDGE development_**   
