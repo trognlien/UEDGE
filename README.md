@@ -35,8 +35,8 @@ algebra solver whose development has been led by ANL (https://www.mcs.anl.gov/pe
 
 # Getting started 
 The easiest way to try out UEDGE is to download a static executable that should run on any Linux system; see
-the link to the executable.  The second method is to download the UEDGE source files, and then build a Python
-version or a Basis version.
+the link to the executable [see uedge_executable].  The second method is to download the UEDGE source files, and then build a Python
+version or a Basis version (see uedge_source).
 
 # How to get involved and contribute
 Sent email to one of the developers listed below expressing your interest in modifying or developing packages 
