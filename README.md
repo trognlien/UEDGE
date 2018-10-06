@@ -18,6 +18,21 @@ and time-dependent solutions with large time-steps.  A preconditioning matrix is
 solution algorithm. A finite-volume differencing algorithm is used. Over 95% of the coding is in 
 Fortran with the remainder being C.
 
+# Related and auxiliary software
+
+Although UEDGE is written in Fortran, for efficient execution and analysis of results, it utilizes 
+either Python or BASIS scripting shells. Python is easily available for many platforms 
+(http://www.Python.org/). The features and availability of BASIS are described in "Basis Manual Set" 
+by P.F. Dubois, Z.C. Motteler, et al., Lawrence Livermore National Laboratory report UCRL-MA-118541, 
+June, 2002 and http://basis.llnl.gov/).  BASIS has been reviewed and released by LLNL for unlimited 
+distribution. The Python version utilizes PYBASIS scripts developed by D.P. Grote, LLNL.  The Python 
+version also uses MPPL code and MAC Perl script, available from the public-domain BASIS source above. 
+The Forthon version of UEDGE uses the same source files but utilizes Forthon to produce a Python-compatible 
+source.  Forthon has been developed by D.P. Grote (see http://hifweb.lbl.gov/Forthon/ and Grote et al. 
+in the references below), and it is freely available. The graphics can be performed by any package importable 
+to Python, such as PYGIST.  The parallel version of UEDGE available through Python also uses the PETSc linear 
+algebra solver whose development has been led by ANL (https://www.mcs.anl.gov/petsc/).
+
 # Authors contributing to V7 release
 T.D. Rognlien, I. Joseph, W.H. Meyer, M.E. Rensink, and M.V. Umansky, LLNL  
 (trognlien@llnl.gov, joseph5@llnl.gov, meyer8@llnl.gov, rensink1@llnl.gov, umansky1@llnl.gov)
