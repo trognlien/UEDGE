@@ -1,5 +1,5 @@
 # UEDGE
-2D time-dependent fluid simulation code of plasma and neutrals in magnetic fusion devices.
+A 2D time-dependent fluid simulation code of plasma and neutrals in magnetic fusion devices.
 ## Brief description 
 UEDGE is an interactive suite of physics packages using the Python or BASIS scripting systems. 
 The original (circa 2007) Python version was further developed under the FACETS SciDAC project 
