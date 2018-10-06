@@ -1,5 +1,5 @@
 # UEDGE
-2D time-dependent fluid simulation of plasma and neutrals in magnetic fusion devices.
+2D time-dependent fluid simulation code of plasma and neutrals in magnetic fusion devices.
 # Brief description 
 UEDGE is an interactive suite of physics packages using the Python or BASIS scripting systems. 
 The original (circa 2007) Python version was further developed under the FACETS SciDAC project 
@@ -15,7 +15,8 @@ line-radiation energy loss.
 A fully implicit numerical algorithm is used that allows both Newton-like iterations to steady state 
 and time-dependent solutions with large time-steps.  A preconditioning matrix is obtained by approximate 
 (ILUT) inversion of a numerical finite-difference Jacobian, which is then used in a Newton-Krylov 
-solution algorithm. Over 95% of the coding is in Fortran with the remainder being C.
+solution algorithm. A finite-volume differencing algorithm is used. Over 95% of the coding is in 
+Fortran with the remainder being C.
 
 # Authors contributing to V7 release
 T.D. Rognlien, I. Joseph, W.H. Meyer, M.E. Rensink, and M.V. Umansky, LLNL  
@@ -28,7 +29,7 @@ L.C. McInnes, and H. Zhang, ANL; J.R. Cary, A.H. Hakim, S.E. Kruger, and A. Pank
 D.A. Knoll, INEEL; D.P. Stotler, PPPL; B.J. Braams, retired, IAEA; A.Yu. Pigarov and 
 R. Smirnov, UCSD; J.D. Elder, U. Toronto; M. Groth, Aalto Univ.; and R.B. Campbell, Sandia.
 
-## References
+# References
 **_UEDGE development_**   
 T.D. Rognlien, J.L. Milovich, M.E. Rensink, and G.D. Porter, J. Nucl. Mat. 196-198 (1992) 347-351.  
 G.R. Smith, P.N. Brown, R.B. Campbell, D.A. Knoll, P.R. McHugh, M.E. Rensink, and T.D. Rognlien, J. Nucl. Mater. 220-222 (1995) 1024.  
