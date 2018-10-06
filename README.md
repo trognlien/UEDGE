@@ -47,7 +47,7 @@ A.H. Hakim, T.D. Rognlien, R.J. Groebner et al., Phys. Plasmas 19 (2012) 032505.
 M. McCourt, T.D. Rognlien, L.C. McInnes, and H. Zhang, Computational Science & Discovery 5 (2012) 014012.  
 
 # Release 
-----------------
+
 UEDGE is released under an LGPL license.  For more details see the
 NOTICE and LICENSE files.
 
