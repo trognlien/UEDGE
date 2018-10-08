@@ -33,6 +33,11 @@ in the references below), and it is freely available. The graphics can be perfor
 to Python, such as PYGIST.  The parallel version of UEDGE available through Python also uses the PETSc linear 
 algebra solver whose development has been led by ANL (https://www.mcs.anl.gov/petsc/).
 
+UEDGE can also be coupled to other codes.  An excellent example is couplling to the DUSTT code from
+UCSD (contact rsmirnov@eng.ucsd.edu) that follows the trajectories and ablation of dust particles in
+the background UEDGE plasma and provides impurity sources to UEDGE.  For an example, see R. Smirnov
+et al., Phys. Plasmas 22 (2015) 012506.
+
 ## Getting started 
 The easiest way to try out UEDGE is to download a static executable that should run on any Linux system; see
 the link to the executable [see uedge_executable file].  The second method is to download the UEDGE source files, and then build a Python
